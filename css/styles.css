@@ -383,4 +383,5 @@ Waypoints
 
 .all {
     margin: 0 auto;
+    max-width: 1280px; /* To restrict 4 per row */
 }
