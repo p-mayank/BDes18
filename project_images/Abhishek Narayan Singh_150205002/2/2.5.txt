@@ -1,5 +1,0 @@
-﻿After uploading the 2.4 file in this project. Embed the interactive prototype by copy & pasting the following codes.
-
-
-Copy & paste the following code to embed the interactive prototype :
-<iframe src="https://marvelapp.com/a24eeja?emb=1&iosapp=false&frameless=false" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>

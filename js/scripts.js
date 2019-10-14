@@ -67,9 +67,9 @@ $(function() {
 
 /***************** Nav Transformicon ******************/
 
-// document.querySelector("#nav-toggle").addEventListener("click", function() {
-// 	this.classList.toggle("active");
-// });
+document.querySelector("#nav-toggle").addEventListener("click", function() {
+	this.classList.toggle("active");
+});
 
 /***************** Overlays ******************/
 
@@ -140,20 +140,4 @@ $(window).load(function() {
 		}
 	});
 
-});
-
-/* Header message */
-$(document).ready(function(){
-	var i=0;
-	var text = "Portfolios are currently being updated!";
-	var speed = 80;
-
-	function texttype(){
-		if(i<text.length){
-			document.getElementById("texttype").innerHTML += text.charAt(i);
-			i++;
-			setTimeout(texttype, speed);
-		}
-	}
-	texttype();
 });
